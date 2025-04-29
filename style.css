@@ -11,28 +11,37 @@
   }
   
   header {
-    padding: 36px 48px;
     background-color: #F7F6EE;
+    padding: 20px 40px;
+  }
+  
+  .navbar-container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    font-size: 0; 
+  }
+  
+  .logo,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
   }
   
   .logo {
-    display: inline-block;
-    font-size: 24px;
-    font-weight: bold;
-    font-family: 'Lora', serif;
+    text-align: left;
+    width: 30%; 
   }
   
   nav {
-    display: inline-block;
-    float: right;
-    font-family: 'Lora', serif;
+    text-align: right;
+    width: 70%; /
   }
   
   nav a {
-    color: #232323;
     margin-left: 20px;
-    font-size: 20px;
     text-decoration: none;
+    color: #111;
   }
   
   main {
